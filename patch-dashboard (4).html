@@ -436,7 +436,7 @@ textarea{resize:vertical;line-height:1.6;}
 
 <script>
 const ENGINEER_PIN = '2024';
-const STORAGE_KEY  = 'tsystem-patch-state';
+const STORAGE_KEY  = 'patch-state';
 const DEFAULT_BIN_ID = '69b7912fc3097a1dd52bc153';
 const DEFAULT_API_KEY = '$2a$10$3DOpAU/6NR3m.RelICkXvONGV57AOp54oaMG4ii/cDtqf/ibQ078K';
 let isEngineer=false;
@@ -595,7 +595,7 @@ async function fetchState(){
 
 // ── STEP TEMPLATES ──
 const STEPS={
-  'TEV Application':['Paused PA Monitor Service','EV access disabled','Stopped EV Services','Started Installing Updates','Updates installed — Started Reboot','Reboot Completed — Installing remaining updates','Updates installed — Started Reboot','Server is up-to-date','Restarted EV Services','Verified Corepoint','Tested TSystemEV Application','EV access enabled','Released the system','Resumed PA Monitor Service'],
+  'TEV Application':['Paused PA Monitor Service','EV access disabled','Stopped EV Services','Started Installing Updates','Updates installed — Started Reboot','Reboot Completed — Installing remaining updates','Updates installed — Started Reboot','Server is up-to-date','Restarted EV Services','Verified Corepoint','Tested Application','EV access enabled','Released the system','Resumed PA Monitor Service'],
   'SQL Database':['Started Installing Updates','Updates installed — Started Reboot','Started Installing Microsoft Updates','Started Reboot','Started Installing remaining updates','Started Reboot','Server is up-to-date'],
   'TEV Terminal':['EV access disabled','Started Installing Updates','Updates installed — Started Reboot','Server is up-to-date','EV access enabled'],
   'default':['Started Installing Updates','Updates installed — Started Reboot','Server is up-to-date','Services verified','System released']
