@@ -6,7 +6,10 @@ No backend. No login accounts. Just open and operate.
 
 Login as Engineer Pin: 2024
 
-🔗 **[Try Live Demo →](https://pmonitor1.netlify.app)**
+## How to use
+1. Clone or download this repo
+2. Open html file directly in your browser
+3. No server or install needed — runs fully in browser
 
 ---
 
